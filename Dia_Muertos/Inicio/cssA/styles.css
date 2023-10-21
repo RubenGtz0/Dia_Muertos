@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    background-color: #000000;
+    color: #E3CCAE;
+    font-family: Arial, sans-serif; /* Fuente legible para el texto */
+}
+tbody {
+    background-color: #262A56;
+    color: #E3CCAE;
+    font-family: Arial, sans-serif; /* Fuente legible para el texto */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #262A56 !important;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.navbar .nav-link {
+    color: #E3CCAE !important;
+}
+
+/* Estilos para los enlaces activos en la barra de navegación */
+.navbar .nav-link.active {
+    color: #FFF !important;
+}
+
+/* Estilos para los títulos principales */
+h1, h2, h3 {
+    color: #B8621B;
+}
+
+/* Estilos para botones */
+.btn {
+    background-color: #B8621B;
+    color: #FFF;
+    border: none;
+}
+
+/* Estilos para botones cuando se les pasa el ratón por encima */
+.btn:hover {
+    background-color: #57007E;
+}
+
+/* Estilos para las tarjetas de contenido */
+.card-body {
+    background-color: #E3CCAE !important;
+    color: #5f035f8e !important;
+    border: none;
+    box-shadow: 0 4px 6px rgba(243, 220, 220, 0.877);
+}
+.card {
+    background-color: #e9e5e3 !important;
+    }
+
+.card-title {
+    font-size: 1.25rem;
+    color: #4C3D3D !important ;
+}
+
+.card-text {
+    font-size: large;
+    color: #1d001d8e;
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.card .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para el efecto de zoom al pasar el cursor sobre la imagen */
+.card .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el botón "Volver arriba" */
+#btn-volver-arriba {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 99;
+    background-color: #B8621B;
+    color: #e7ff0d;
+    border: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 10px; /* Ajustado el tamaño de fuente */
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Estilo del botón al pasar el cursor sobre él */
+#btn-volver-arriba:hover {
+    background-color: #57007E;
+}
+
+/* Ajustar la altura de la descripción al tamaño de la ventana */
+.product-description {
+    height: 90%;
+}
+
+/* Cambiar el color de los controles del carrusel */
+.carousel-control-prev-icon {
+    background-color: #333; /* Cambia el color a tu elección */
+}
+
+.carousel-control-next-icon {
+    background-color: #333; /* Cambia el color a tu elección */
+}
+.product-description {
+    display: flex;
+    align-items:flex-end;
+    justify-content:stretch;
+    padding: 20px; /* Espacio alrededor de la descripción del producto */
+}
+
+.product-info {
+    text-align:justify; /* Para centrar el contenido en el bloque de descripción */
+}
+.product-info h3, p, h4 {
+    margin-bottom: 30px; /* Ajusta este valor según la cantidad de espacio que desees entre párrafos */
+}
